@@ -10,14 +10,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/epikchadi-ctrl/minecut/releases/latest/download/minecut-0.6.0.jar"><img src="images/download-button.svg" height="56" alt="Download MineCut 0.6.0"></a>
+  <a href="https://github.com/epikchadi-ctrl/minecut/releases/latest/download/minecut-fabric-1.21.1-0.7.0.jar"><img src="images/download-fabric.svg" height="56" alt="Download MineCut for Fabric"></a>
+  &nbsp;
+  <a href="https://github.com/epikchadi-ctrl/minecut/releases/latest/download/minecut-neoforge-1.21.1-0.7.0.jar"><img src="images/download-neoforge.svg" height="56" alt="Download MineCut for NeoForge"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/epikchadi-ctrl/minecut/releases/latest"><img src="https://img.shields.io/github/v/release/epikchadi-ctrl/minecut?style=flat-square&label=release&color=c48a4a" alt="Latest release"></a>
   <a href="https://github.com/epikchadi-ctrl/minecut/releases"><img src="https://img.shields.io/github/downloads/epikchadi-ctrl/minecut/total?style=flat-square&color=2f9a57" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/Minecraft-1.21.1-3a73c9?style=flat-square" alt="Minecraft 1.21.1">
-  <img src="https://img.shields.io/badge/loader-Fabric-b0743a?style=flat-square" alt="Fabric">
+  <img src="https://img.shields.io/badge/loader-Fabric%20%7C%20NeoForge-b0743a?style=flat-square" alt="Fabric and NeoForge">
   <img src="https://img.shields.io/badge/Java-21-9b55c4?style=flat-square" alt="Java 21">
   <a href="https://minecut.floppegg.workers.dev"><img src="https://img.shields.io/badge/website-minecut.floppegg.workers.dev-22262e?style=flat-square" alt="Website"></a>
 </p>
@@ -45,8 +47,8 @@ You press F7 and play. MineCut stores the world around you, every mob, block cha
 
 ## Install
 
-1. Install [Fabric Loader](https://fabricmc.net/use/installer/) for Minecraft **1.21.1**, or create a Fabric 1.21.1 instance in Prism Launcher, Modrinth App or CurseForge.
-2. Put [Fabric API](https://modrinth.com/mod/fabric-api/versions?g=1.21.1) for 1.21.1 and `minecut-0.6.0.jar` in the `mods` folder.
+1. Make a Minecraft **1.21.1** instance with [Fabric](https://fabricmc.net/use/installer/) or [NeoForge](https://neoforged.net/). Prism Launcher, Modrinth App and CurseForge can all do this for you.
+2. Put the MineCut jar for your loader in the `mods` folder. On Fabric, add [Fabric API](https://modrinth.com/mod/fabric-api/versions?g=1.21.1) for 1.21.1 as well.
 3. For video import, screen recording and export, install [FFmpeg](https://ffmpeg.org/download.html) and add its `bin` folder to PATH, or pick the folder later in MineCut settings. Replays work without it.
 4. Start the game and join a world. Press **M** for the editor or **F7** to start and stop recording.
 
@@ -110,7 +112,7 @@ The server only listens on `127.0.0.1` and refuses requests without its access t
 | | |
 |---|---|
 | Minecraft | Java Edition 1.21.1 |
-| Loader | Fabric Loader 0.16 or newer, with Fabric API |
+| Loader | Fabric Loader 0.16 or newer with Fabric API, or NeoForge 21.1 |
 | Java | 21 |
 | FFmpeg | Optional for replays, needed for video import, screen recording and export |
 | Tested on | Windows 11 |
