@@ -1,0 +1,26 @@
+MineCut
+Copyright (c) 2026 Heroo (epikchadi-ctrl). All rights reserved.
+
+MineCut is distributed as a compiled file only. The source code is not
+published and is not licensed to you.
+
+You may:
+  - download the MineCut jar from the official GitHub releases page or the
+    official download site, and use it to play Minecraft and to make videos,
+    including videos you publish or earn money from;
+  - include an unmodified MineCut jar in a modpack, as long as you link to
+    the official download page and do not charge for MineCut itself.
+
+You may not:
+  - decompile, disassemble, or reverse engineer MineCut, except where the law
+    explicitly allows it regardless of this notice;
+  - modify MineCut or publish modified copies;
+  - re-upload MineCut to other sites as if it were your own, or sell it.
+
+MineCut is provided "as is", without warranty of any kind. The author is not
+liable for any damage or data loss arising from its use. Keep backups of your
+worlds and projects.
+
+MineCut is not an official Minecraft product and is not approved by or
+associated with Mojang or Microsoft. FFmpeg is a separate program that you
+install yourself; it is not part of MineCut.
